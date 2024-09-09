@@ -21,7 +21,7 @@ st.set_page_config(
     layout="centered", 
 )
 st.image('assets/fernandito_01.png')
-st.title("Hola, Estoy aqui para ti")
+st.title("Hola, Estoy aqui para ti ✌️")
 st.write("Recuerda que estamos mejorando constantemente para poder ofrecerte una mejor asistencia.")
 if "conversation_id" not in st.session_state:
     st.session_state.conversation_id = create_conversation()
