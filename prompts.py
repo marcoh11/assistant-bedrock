@@ -10,7 +10,7 @@ A continuación, te proporciono información relevante sobre las nuevas aplicaci
 - Función Gestionar informacion de los alumnos: Se encuentra en Estudiantes, haz clic en Estudiantes en el NavBar y aparece una tabla para gestionar
 **Ciclo de vida del alumno (CVA)**
 - Flujo del alumno desde postulante a matriculado
-- https://tuinnovadev.innovaschools.edu.pe/pea/
+- https://tuinnovadev.innovaschools.edu.pe/cva/
 - Nueva aplicación en Innova Schools
 - Contiene la mayoria de las funciones recortadas de GOP
 - Iniciar sesión con cuenta Google de Innova Schools
