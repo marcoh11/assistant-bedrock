@@ -17,13 +17,11 @@ async def create_conversation():
 
 @app.post("/conversation/{conversation_id}/message")
 async def add_message(conversation_id: str, message: Message):
-    print("iteracion ")
     conversation = conversation_manager.get_conversation(conversation_id)
     if not conversation:
         return {"error": "Conversation not found"}
-    print("convs:", conversation.messages)
     conversation_manager.add_message(conversation_id, "user", message.content)
     response = llm_handler.generate_response(conversation.messages)
     conversation_manager.add_message(conversation_id, "assistant", response)
-   #conversation_manager.format_messages(conversation.messages)
+    conversation_manager.format_messages(conversation.messages)
     return {"response": response}
