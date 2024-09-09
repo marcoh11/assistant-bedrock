@@ -23,5 +23,6 @@ async def add_message(conversation_id: str, message: Message):
     conversation_manager.add_message(conversation_id, "user", message.content)
     response = llm_handler.generate_response(conversation.messages)
     conversation_manager.add_message(conversation_id, "assistant", response)
-    conversation_manager.format_messages(conversation.messages)
+    #Aca llamar a llm_handler pero debo modificar en el conversation_manager
+    #conversation_manager.format_messages(conversation.messages)
     return {"response": response}

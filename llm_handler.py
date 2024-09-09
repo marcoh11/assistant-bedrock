@@ -11,7 +11,7 @@ class LLMHandler:
             client=bedrock_runtime,
             model_id="mistral.mixtral-8x7b-instruct-v0:1", 
             model_kwargs={"temperature": 0.3,
-                          "max_tokens": 80,
+                          "max_tokens": 300,
                           "top_p": 0.8,}
         )
         self.llc = BedrockLLM(

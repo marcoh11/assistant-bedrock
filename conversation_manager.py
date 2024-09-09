@@ -33,15 +33,19 @@ class ConversationManager:
         total_tokens = sum(len(text) / 4 for text in texts)
         print("total tokens:",total_tokens)
         return total_tokens
-    
+    def regenerate_conversation():
+        return None
     def format_messages(self, messages: List[Dict[str, str]]) -> str:
-        print("formating_message...")
         formatted_messages = []
         for message in messages:
-            if message["role"] == "user":
-                formatted_messages.append(f"Human: {message['content']}")
+            if message["role"] == "system":
+                formatted_messages.append(f"system: {message['content']}")
+            elif message["role"] == "user":
+                formatted_messages.append(f"user: {message['content']}")
             elif message["role"] == "assistant":
-                formatted_messages.append(f"Assistant: {message['content']}")
-        formatted_messages.append("Assistant:")
-
-        print(formatted_messages,type(formatted_messages[0]),self.estimate_tokens(formatted_messages))
+                formatted_messages.append(f"assistant: {message['content']}")
+        if self.estimate_tokens(formatted_messages)>4000:
+            self.regenerate_conversation()
+        print(messages[0])
+        formatted_messages.append("assistant:")
+        print(type(formatted_messages[0]))
