@@ -17,11 +17,11 @@ def send_message(conversation_id, message):
 
 st.set_page_config(
     page_title="Innova Schools | Bot ",
-    page_icon=':bar_chart:',
+    page_icon=':robot-face:',
     layout="centered", 
 )
 st.image('assets/fernandito_01.png')
-st.title("Hola, Estoy aqui para ti ✌️")
+st.title("Hola, Estoy aqui para ti \u270C\uFE0F️")
 st.write("Recuerda que estamos mejorando constantemente para poder ofrecerte una mejor asistencia.")
 if "conversation_id" not in st.session_state:
     st.session_state.conversation_id = create_conversation()
