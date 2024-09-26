@@ -1,6 +1,6 @@
 from uuid import uuid4
 from typing import Dict, List
-from prompts import INITIAL_PROMPT 
+from prompts import INITIAL_PROMPT,TEST_PROMPT
 
 class Conversation:
     def __init__(self):
@@ -33,14 +33,16 @@ class ConversationManager:
         total_tokens = sum(len(text) / 4 for text in texts)
         print("total tokens:",total_tokens)
         return total_tokens
+    
+
     def regenerate_conversation():
         return None
+    
+
     def format_messages(self, messages: List[Dict[str, str]]) -> str:
         formatted_messages = []
         for message in messages:
-            if message["role"] == "system":
-                formatted_messages.append(f"system: {message['content']}")
-            elif message["role"] == "user":
+            if message["role"] == "user":
                 formatted_messages.append(f"user: {message['content']}")
             elif message["role"] == "assistant":
                 formatted_messages.append(f"assistant: {message['content']}")

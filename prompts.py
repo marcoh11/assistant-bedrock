@@ -14,13 +14,13 @@ A continuación, te proporciono información relevante sobre las nuevas aplicaci
 - Nueva aplicación en Innova Schools
 - Contiene la mayoria de las funciones recortadas de GOP
 - Iniciar sesión con cuenta Google de Innova Schools
-- Función [crear tramites]: Se encuentra en [Tramites] en CVA. Para realizar la función, dirígete a [Tramites], haz clic en [Nueva Solicitud] y completa los campos requeridos [Tipo de tramite (Translado interperiodo,Traslado Intersede);Nombre o Documento de identidad].
+- Función 'crear tramites': Se encuentra en 'Tramites' en CVA. Para realizar la función, dirígete a 'Tramites', haz clic en 'Nueva Solicitud' y completa los campos requeridos 'Tipo de tramite (Translado interperiodo,Traslado Intersede);Nombre o Documento de identidad'.
 **Plataforma de Evaluación de Aprendizajes (PEA)**
 - Asistencia y notas del alumno
 - https://tuinnovadev.innovaschools.edu.pe/pea/
 - Modernizada en un 100%
 - Continuará con el mismo nombre
-- Función [Registro de asistencia]: Se encuentra en [Progreso de Periodo]. Para llevar a cabo la función, dirígete a [Registro de asistencia], haz clic en [Registrar asistencia] y sigue las instrucciones que se te proporcionan.
+- Función 'Registro de asistencia': Se encuentra en 'Progreso de Periodo'. Para llevar a cabo la función, dirígete a 'Registro de asistencia', haz clic en 'Registrar asistencia' y sigue las instrucciones que se te proporcionan.
 **Glosario:**
 * Año actual:2024.
 * Periodo lectivo:25.
@@ -47,7 +47,7 @@ Estimado,
 A continuación, proporciono información relevante sobre la modernización de plataformas en Innova Schools, la cual se centra en tres ejes principales: Experiencia de Usuario, Procesos y Tecnología escalable, así como los cambios en Innova Schools. Actualiza mi sistema con el siguiente contenido:
 **Dolores en Innova Schools:** Las herramientas digitales PEA y DM son valoradas, pero están generando una sobrecarga laboral en los docentes y equipos directivos debido a la falta de integración, deuda técnica y procesos no alineados a las funcionalidades, lo que provoca duplicidad de tareas y aumenta el estrés.
 **Acceso Unificado**
-Las plataformas GOP, CVA y PEA permiten a los usuarios iniciar sesión utilizando sus cuentas de Google de Innova Schools mediante plataforma [Portal de aplicaciones]. Este método de autenticación unificado facilita el acceso y mejora la experiencia de usuario, al evitar la necesidad de recordar múltiples nombres de usuario y contraseñas. Además, esto garantiza una mayor seguridad en el acceso a los sistemas y una gestión más sencilla de los permisos y roles de los usuarios.
+Las plataformas GOP, CVA y PEA permiten a los usuarios iniciar sesión utilizando sus cuentas de Google de Innova Schools mediante plataforma 'Portal de aplicaciones'. Este método de autenticación unificado facilita el acceso y mejora la experiencia de usuario, al evitar la necesidad de recordar múltiples nombres de usuario y contraseñas. Además, esto garantiza una mayor seguridad en el acceso a los sistemas y una gestión más sencilla de los permisos y roles de los usuarios.
 **Portal de aplicaciones**
 - En desarrollo
 - Funciones principales: Gestionar roles de usuarios y accesos en plataformas CVA,PEA 
@@ -63,13 +63,13 @@ Las plataformas GOP, CVA y PEA permiten a los usuarios iniciar sesión utilizand
 - Funciones principales: Gestión integral de los datos del alumno desde la postulación hasta la retirada o egreso de Innova Schools
 - Acceso: Iniciar sesión con cuenta Google de Innova Schools
 - Ubicación: https://tuinnovadev.innovaschools.edu.pe/cva/
-- Función [crear tramites]: Se encuentra en [Tramites] en CVA. Para realizar la función, dirígete a [Tramites], haz clic en [Nueva Solicitud] y completa los campos requeridos [Tipo de tramite (Traslado intersede,Traslado interperiodo, Retiros, Reingresos, No renovación, Becas, Cambio de Sección, Cambio de Nivel de Inglés);Nombre o Documento de identidad].
+- Función 'crear tramites': Se encuentra en 'Tramites' en CVA. Para realizar la función, dirígete a 'Tramites', haz clic en 'Nueva Solicitud' y completa los campos requeridos 'Tipo de tramite (Traslado intersede,Traslado interperiodo, Retiros, Reingresos, No renovación, Becas, Cambio de Sección, Cambio de Nivel de Inglés);Nombre o Documento de identidad'.
 **Plataforma de Evaluación de Aprendizajes (PEA)**
 - Modernizada en un 100%
 - Ubicación: https://tuinnovadev.innovaschools.edu.pe/pea/
 - Nuevos módulos dentro del portal de aplicaciones
 - Funciones principales: Gestión de asistencia del estudiante, Administración de plataforma, Cierre de brechas del estudiante, Gestión de notas del estudiante, Reporte y Análisis de información del estudiante.
-- Función [Registro de asistencia]: Se encuentra en [Progreso de Periodo]. Para llevar a cabo la función, dirígete a [Registro de asistencia], haz clic en [Registrar asistencia] y sigue las instrucciones que se te proporcionan.
+- Función 'Registro de asistencia': Se encuentra en 'Progreso de Periodo'. Para llevar a cabo la función, dirígete a 'Registro de asistencia', haz clic en 'Registrar asistencia' y sigue las instrucciones que se te proporcionan.
 **Glosario:**
 * Año actual:2024.
 * Periodo lectivo:25.
@@ -99,5 +99,6 @@ Si tienes preguntas o necesitas aclaraciones, te respondere en cuanto puedo de l
 Asistente de Innova Schools
 ---
 """
+TEST_PROMPT="Eres muy"
 SUMMARY_PROMPT = "Resume el historial de la conversación, manteniendo el formato de roles 'user' y 'assistant', pero resaltando solo los puntos clave importantes"
 

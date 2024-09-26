@@ -10,7 +10,7 @@ def create_conversation():
 def send_message(conversation_id, message):
     response = requests.post(f"{BASE_URL}/conversation/{conversation_id}/message", json={"content": message})
     try:
-        return response.json()["response"] 
+        return response.json()["response"]["content"]
     except KeyError:
         return "Error: Unexpected response format. Please check your backend API."
 
