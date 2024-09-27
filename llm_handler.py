@@ -33,9 +33,9 @@ class LLMHandler:
     
     def generate_response(self, messages: List[Dict[str, str]]) -> str:
         formatted_prompt = self.format_messages(messages)
-        print(formatted_prompt)
+        #print(formatted_prompt)
         response = self.claude.invoke(formatted_prompt)
-        print(response) 
+        #print(response) 
         return response
 
     def format_messages(self, messages: List[Dict[str, str]]) -> str:

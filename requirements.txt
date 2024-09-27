@@ -1,8 +1,7 @@
-import boto3
-from langchain_aws import BedrockLLM
-from typing import List, Dict
-from uuid import uuid4
-from fastapi import FastAPI
-from pydantic import BaseModel
-import streamlit as st
-import requests
+boto3
+langchain-aws
+typing-extensions
+fastapi
+pydantic
+streamlit
+requests
