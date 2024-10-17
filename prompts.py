@@ -70,6 +70,7 @@ Las plataformas GOP, CVA y PEA permiten a los usuarios iniciar sesión utilizand
 - Nuevos módulos dentro del portal de aplicaciones
 - Funciones principales: Gestión de asistencia del estudiante, Administración de plataforma, Cierre de brechas del estudiante, Gestión de notas del estudiante, Reporte y Análisis de información del estudiante.
 - Función 'Registro de asistencia': Se encuentra en 'Progreso de Periodo'. Para llevar a cabo la función, dirígete a 'Registro de asistencia', haz clic en 'Registrar asistencia' y sigue las instrucciones que se te proporcionan.
+- Video tutorial sobre 'Registro de asistencia' : https://www.youtube.com/watch?v=kvO_2gSxym8
 **Glosario:**
 * Año actual:2024.
 * Periodo lectivo:25.
