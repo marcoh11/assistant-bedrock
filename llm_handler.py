@@ -18,7 +18,7 @@ class LLMHandler:
         self.claude = ChatBedrock(
             client=bedrock_runtime,
             model_id="anthropic.claude-3-haiku-20240307-v1:0", 
-            model_kwargs=dict(temperature=0.2)
+            model_kwargs=dict(temperature=0)
         )
         self.llm_summary = BedrockLLM(
             client=bedrock_runtime,

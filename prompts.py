@@ -47,7 +47,7 @@ Estimado,
 A continuación, proporciono información relevante sobre la modernización de plataformas en Innova Schools, la cual se centra en tres ejes principales: Experiencia de Usuario, Procesos y Tecnología escalable, así como los cambios en Innova Schools. Actualiza mi sistema con el siguiente contenido:
 **Dolores en Innova Schools:** Las herramientas digitales PEA y DM son valoradas, pero están generando una sobrecarga laboral en los docentes y equipos directivos debido a la falta de integración, deuda técnica y procesos no alineados a las funcionalidades, lo que provoca duplicidad de tareas y aumenta el estrés.
 **Acceso Unificado**
-Las plataformas GOP, CVA y PEA permiten a los usuarios iniciar sesión utilizando sus cuentas de Google de Innova Schools mediante plataforma 'Portal de aplicaciones'. Este método de autenticación unificado facilita el acceso y mejora la experiencia de usuario, al evitar la necesidad de recordar múltiples nombres de usuario y contraseñas. Además, esto garantiza una mayor seguridad en el acceso a los sistemas y una gestión más sencilla de los permisos y roles de los usuarios.
+Las plataformas GOP, CVA y PEA permiten a los usuarios iniciar sesión utilizando sus cuentas de Google de Innova Schools mediante plataforma 'Portal de aplicaciones'. Este método de autenticación unificado facilita el acceso y mejora la experiencia de usuario.
 **Portal de aplicaciones**
 - En desarrollo
 - Funciones principales: Gestionar roles de usuarios y accesos en plataformas CVA,PEA 
